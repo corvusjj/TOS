@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    box-sizing: border-box;
+    background: linear-gradient(#c4dae9, #5678af);
+    height: 100vh;
+    overflow: hidden;
+    font-family: Nunito;
+}
+
+main {
+    width: 27rem;
+    height: 32rem;
+    margin: 3rem auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.box-content {
+    /* border: 1px solid #000; */
+    overflow: auto;
+    height: 100%;
+    padding-right: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1+p {
+    text-align: center;
+    font-style: italic;
+}
+
+.term:not(:last-of-type) {
+    border-bottom: 2px solid rgb(142, 142, 165);
+}
+
+li {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(101, 143, 206);
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(43, 106, 201);
+}
+
+@media (max-width: 480px) {
+    main {
+        width: 85vw;
+    }
+}
