@@ -3,15 +3,18 @@
 body {
     box-sizing: border-box;
     background: linear-gradient(#c4dae9, #5678af);
-    height: 100vh;
-    overflow: hidden;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Nunito;
 }
 
 main {
     width: 27rem;
     height: 32rem;
-    margin: 3rem auto;
+    margin: 2rem auto;
     background-color: #fff;
     border-radius: 20px;
     padding: 1.5rem;
@@ -19,7 +22,6 @@ main {
 }
 
 .box-content {
-    /* border: 1px solid #000; */
     overflow: auto;
     height: 100%;
     padding-right: 1rem;
@@ -44,7 +46,10 @@ li {
     font-weight: 500;
 }
 
-
+a svg {
+    width: 35px;
+    height: 35px;
+}
 
 ::-webkit-scrollbar {
     width: 5px;
